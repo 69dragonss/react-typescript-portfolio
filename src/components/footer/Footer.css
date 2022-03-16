@@ -1,0 +1,35 @@
+footer {
+  height: 24rem;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/footer.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  inset: 0;
+  opacity: 0.5;
+}
+footer p {
+  font-size: 1.3rem;
+  max-width: 40rem;
+  margin: 2rem;
+  text-align: center;
+  position: relative;
+}
+footer button {
+  font-size: 1.3rem;
+  border: 2px solid white;
+  padding: 0.3rem 2rem;
+  cursor: pointer;
+  position: relative;
+}
